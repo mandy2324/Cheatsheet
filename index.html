@@ -5,35 +5,41 @@
   <title>CSS Box Styling</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
   <!-- Header -->
   <header>
-    <h1>Welcome to the store!</h1>
+    <h1>CSS Snippet Cheatsheet</h1>
     <p>
-      Add some box styling to the product cards to make them POP!
+      Ever have trouble...
     </p>
   </header>
 
   <!-- Navbar -->
-  <nav>
+  <!-- <nav>
     <a href="#">Camera</a>
     <a href="#">Tablet</a>
     <a href="#">Toilet Paper</a>
     <a href="#">Wooden Spoons</a>
-  </nav>
+  </nav> -->
 
   <!-- Body -->
   <main>
     <!-- Product Cards -->
     <div class="products">
       <section class="card">
-        <header>Camera</header>
-        <img src="./assets/images/camera.jpg" alt="camera" />
-        <p>Price: $300</p>
+        <header class="card-header">Flexbox Row</header>
+        <p class="card-body">Use these three properties to create a Flexbox row layout.</p>
+        <section class="code-card linear-gradient-background">
+            .row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        </section>
       </section>
       <section class="card">
         <header>Tablet</header>
