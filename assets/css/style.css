@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: row;
+    /* Centers along the main axis determined by flex-direction (side to side) */
+    justify-content: center;
+    /* Centers along the opposite axis (up & down) */
+    align-items: center;
+    width: 90%;
+    /* Uses the height of the viewport 
+    100vh - height of the viewport - the height of what you can see on your screen! 
+    100vh - take up all of the available viewport space that you have
+    90vw - is viewport WIDTH. 
+    % is percentage of element's parent and not the whole viewport.
+    like if html {take up 50% of viewport}
+    and body {take up 30% of that} then it will take up 15% of the screen. 
+    */
+    height: 100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  .card {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
